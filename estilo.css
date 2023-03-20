@@ -1,0 +1,574 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    background-image: linear-gradient(62deg, #ffffff 0%, #ffffff 19%, #ffbd99 39%, #fddf92 60%, #ffffff 80%, #ffffff 100%);
+    height: 100%;
+    width: 100%;
+}
+
+/* --------------------------------header encabezado. -------------------------*/
+header {
+    background: linear-gradient(65deg,rgba(47, 47, 246, 0.937),rgb(93, 129, 246), rgb(247, 78, 78), rgba(253, 52, 52, 0.953));
+    border: black 5px solid;
+
+}
+
+header img {
+    width: 270px;
+    height: 200px;
+    border: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.opciones {
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    border: black 5px solid;
+    background-color: rgba(255, 184, 184, 0.315);
+}
+
+.lin {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mi_titulo {
+    text-align: center;
+    padding: 40px;
+    height: 400px;
+    /* border: black 5px solid; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-position: center center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.73),
+            rgba(0, 0, 0, 0.723)), url("datos/h1.jpg")
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+
+.seleccionado {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.lin a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: grab;
+}
+
+
+/* ------------------------fin del header (encabezado)---------------------- */
+
+
+
+
+
+
+
+
+
+/* -----------------------pagina 1 inicio------------------- */
+
+
+
+.op2 {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.op2 a {
+    color: #4c7ac4;
+}
+
+.op1 {
+    width: 100%;
+    align-items: center;
+    border: rgb(245, 93, 11) 5px double;
+    height: 50px;
+    padding: 10px;
+    background-color: rgba(227, 152, 125, 0.623);
+}
+
+
+.video {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.video iframe {
+
+    border-radius: 15px;
+    border: black 10px solid;
+    width: 75%;
+    height: 600px;
+}
+
+.contenido_inicio {
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.contenido_inicio p {
+    margin: 0 auto;
+    width: 75%;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.contenido_inicio b {
+    color: rgb(109, 138, 233);
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.informacion {
+    text-align: justify;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+.informacion p {
+    padding: 30px;
+    border: black 2px solid;
+    background-color: rgba(221, 156, 229, 0.555);
+    width: 75%;
+    align-content: center;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+
+/*--------------------------- fin pagina 1----------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------footer inicio------------------------ */
+#contacto {
+    background: linear-gradient(45deg, rgb(121, 121, 227), rgb(237, 240, 242), rgb(121, 121, 227));
+    margin-top: 30px;
+    display: flex;
+    height: 110px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+#contacto img {
+    width: 50px;
+    height: 50px;
+}
+
+.animacion {
+    background: transparent;
+    width: 50px;
+    height: 50px;
+}
+
+.redes {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.texto {
+    width: 30%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px;
+}
+
+.desarrollo {
+    width: 30%;
+    padding: 25px;
+    text-align: center;
+}
+
+.desarrollo a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/* footer final */
+
+
+
+
+/* -----------------inicio pagina de materias---------------------- */
+
+.tabla {
+    border: black 3px solid;
+    background-color: aquamarine;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.tabla td {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #e8dfd6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.datos_tabla {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 10%;
+    padding: 20px;
+    width: 80%;
+}
+
+.tabla th {
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #d98e60;
+}
+
+.pdf1 {
+    display: block;
+    margin-top: 20px;
+    width: 535px;
+    height: 100vh;
+    border-radius: 20px;
+    background-color: #4c7ac4;
+    border: black 7px solid;
+
+}
+
+.visualizar {
+    display: flex;
+    width: 85%;
+    /* background-color: #d9caa5; */
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.visualizar h2 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(60, 76, 167);
+}
+
+.mate_p{
+    text-align: center;
+}
+.mate_p img{
+    border-radius: 20px;
+    width:80%;
+    border: black 5px solid;
+
+}
+
+
+/*---------------------- fin tabla de materias ----------------------*/
+
+
+
+
+
+
+
+
+/* --------------beneficios del estudiante------------------------- */
+#beca_comedor {
+    padding: 30px;
+    /* background-color: #eee981; */
+    font-size: 30px;
+    text-align: justify;
+    width: 75%;
+    margin: 0 auto;
+}
+
+#beca_comedor ul {
+    background-color: rgba(229, 163, 231, 0.496);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#beca_comedor ul li {
+    padding: 5px;
+    margin-left: 10px;
+    text-align: justify;
+    font-size: 25px;
+
+
+}
+
+#unidad_control {
+    padding: 30px;
+    border-top: rgb(66, 67, 127) 10px dotted;
+    /* background-color: #b4b6b8; */
+    font-size: 30px;
+    text-align: justify;
+    width: 75%;
+    margin: 0 auto;
+}
+
+#unidad_control h3 {
+    margin-top: 20px;
+    color: rgb(161, 68, 68);
+    font-size: 35px;
+}
+
+#unidad_control ul {
+    background-color: rgba(229, 163, 231, 0.496);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+
+#unidad_control ul li {
+    padding: 5px;
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+#guarderia {
+    padding: 30px;
+    border-top: rgb(66, 67, 127) 10px dotted;
+    /* background-color: #06c4db; */
+    font-size: 35px;
+    text-align: justify;
+    width: 75%;
+    margin: 0 auto;
+}
+
+#guarderia ul {
+    background-color: rgba(229, 163, 231, 0.496);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+
+#guarderia ul li {
+    padding: 5px;
+    margin-left: 25px;
+    font-size: 25px;
+
+}
+
+#guarderia h3 {
+    margin-top: 20px;
+    color: rgb(161, 68, 68);
+    font-size: 35px;
+}
+
+#beneficio_4 {
+    border-top: rgb(66, 67, 127) 10px dotted;
+    padding: 30px;
+    /* background-color: #c1cdb8; */
+    font-size: 30px;
+    text-align: justify;
+    width: 75%;
+    margin: 0 auto;
+}
+
+#beneficio_4 ul {
+    background-color: rgba(229, 163, 231, 0.496);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#beneficio_4 ul li {
+    padding: 5px;
+    margin-left: 25px;
+    font-size: 25px;
+
+}
+
+#beneficio_4 h3 {
+    margin-top: 20px;
+    color: rgb(161, 68, 68);
+    font-size: 35px;
+}
+
+.hh2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.menu1 {
+    display: flex;
+    font-size: 17px;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.menu a {
+    color: #4c7ac4;
+
+}
+
+.menu {
+    width: 100%;
+    align-items: center;
+    border: rgb(245, 93, 11) 5px double;
+    height: 50px;
+    padding: 10px;
+    background-color: rgba(227, 152, 125, 0.623);
+}
+
+/*---------------- fin de la pagina beneficios del estudiante ------------------*/
+
+
+
+
+
+
+
+
+
+/*------------------------ pagina de requisitos---------------------- */
+.admisiones {
+    /* background-color: aqua; */
+    padding: 40px;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 25px;
+
+}
+
+.admisiones h2 {
+    font-size: 40px;
+    color: #39568d;
+    text-align: center;
+}
+
+.admisiones ul {
+    /* background-color: aquamarine; */
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.redes_s {
+    margin-top: 15px;
+    background-color: #d9caa5;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border: black 1px solid;
+    border-radius: 20px;
+}
+
+.facultad {
+    /* background-color: aqua; */
+    padding: 40px;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.facultad h2 {
+    font-size: 40px;
+    color: #39568d;
+    text-align: center;
+    font-weight: bold;
+}
+
+.facultad h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.qr_imagen {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.facultad ul {
+    padding: 35px;
+}
+
+.facultad ul a {
+    color: #4c7ac4;
+}
+
+/*------------------------ pagina de requisitos fin ---------------------- */
+
+
+
+
+/*--------------------------------------- .admisiones 2023 inicio -------------------------*/
+
+.admisiones_2023 {
+    /* background-color: #4cc44e; */
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.admisiones_2023 h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15px;
+    color: #4c7ac4;
+}
+
+.admisiones_2023 h3 {
+    margin-top: 15px;
+    font-size: 31px;
+}
+
+.admisiones_2023 ol {
+    /* background-color: #d9caa5; */
+    padding: 20px;
+}
+
+.admisiones_2023 li {
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+.admisiones_2023 p {
+    font-size: 30px;
+}
